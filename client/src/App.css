@@ -1,0 +1,223 @@
+@font-face {
+  font-family: "Segou UI";
+  src: url("../public/Segoe UI.ttf");
+  src: url("../public/Segoe UI.ttf") format("truetype");
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Segou UI";
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 32px;
+  margin-top: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.navbar-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-nav {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  margin-left: 30px;
+}
+
+.navbar-nav .nav-item {
+  margin-left: 15px;
+}
+
+.navbar-nav .nav-item a {
+  color: gray;
+  font-size: 16px;
+}
+
+.nav-item a:hover {
+  color: black;
+}
+
+.navbar-name {
+  color: black;
+  font-size: 20px;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: #F8F9FA;
+}
+
+.sign-up {
+  background-color: #F8F9FA;
+  color: #007BFF;
+  border: 1px solid #007BFF;
+  outline: 1px;
+  margin-left: 10px;
+}
+
+.sign-up:hover {
+  background-color: #007BFF;
+  color: #F8F9FA;
+}
+
+@media only screen and (max-width: 576px) {
+  .navbar {
+    display: block;
+  }
+  .navbar-btns {
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.content-header {
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.ad {
+  padding: 0.75rem 1.25rem;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.ad h4 {
+  margin-top: 5px;
+}
+
+.public-ad {
+  background-color: #cce5ff;
+  color: #004085;
+}
+
+.private-ad {
+  background-color: #d1ecf1;
+  color: #0C5460;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.github {
+  color: black;
+}
+
+.github:hover {
+  color: gray;
+}
+
+.form-group label {
+  display: flex;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.form-group input {
+  margin-top: 10px;
+}
+
+.submit {
+  margin-top: 15px;
+}
+
+.change-password {
+  font-size: 20px;
+}
+
+.input:-moz-read-only {
+  background-color: #E9ECEF;
+}
+
+.input:read-only {
+  background-color: #E9ECEF;
+}
+
+.input {
+  color: #6c757d;
+  padding: 0.375rem 0.75rem;
+  display: block;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.check {
+  margin-top: 15px;
+}
+
+.submit {
+  margin-top: 15px;
+}
+
+.never-share {
+  margin-top: 4px;
+  margin-bottom: 15px;
+  color: #6c757d;
+}
+
+.select {
+  margin-top: 10px;
+  background-color: #F8F9FA;
+  border: 1px solid #ced4da;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.select:hover option {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    padding: 0 10px;
+  }
+}
+.textarea {
+  width: 300px;
+  max-width: 95%;
+}
+
+.logout, .delete {
+  margin-left: 10px;
+  background-color: red;
+}
+
+.nav-item a.nav-link-active {
+  color: black;
+}
+
+.disabled {
+  cursor: default;
+  background-color: gray;
+}
